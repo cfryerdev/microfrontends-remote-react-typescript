@@ -7,7 +7,7 @@ module.exports = {
 	entry: "./src/index.ts",
 	mode: "development",
 	devServer: {
-		port: 3003,
+		port: {REPLACE_PORT},
 		open: false,
 	},
 	resolve: {
